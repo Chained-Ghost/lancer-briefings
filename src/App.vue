@@ -89,68 +89,88 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
-      "current_md": "",
-      "events": "",
+      "mission_slug": "005",
+      "current_md": "005",
+      "events": "events",
       "missions": [
         {
           "slug": "001",
-          "name": "Bug-Hunt",
+          "name": "Bug Hunt",
+          "status": "success"
+        },
+        {
+          "slug": "002",
+          "name": "Vigilant Gaze",
+          "status": "success"
+        },
+        {
+          "slug": "003",
+          "name": "Floodgate",
+          "status": "success"
+        },
+        {
+          "slug": "004",
+          "name": "Last Castle",
+          "status": "success"
+        },
+        {
+          "slug": "005",
+          "name": "Split-Knuckle Haymaker",
           "status": "start"
         },
       ],
       "pilots": [
         {
-          "callsign": "Jinzo",
-          "alias": "Shayan Arsenal",
-          "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///NDL-C-DEEP-STATION//377308ad-ba23-410b-ae37-68a1fb5f8db4",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Type - Worst Beat"
+          "callsign": "Bulwark",
+          "alias": "E.A.C.3",
+          "code": "temp//c7cf6b40-0402-4119-aaa5-05ac4833ddae//NDL-C-FALLEN-ROYAL",
+          "corpro": "No Affiliation",
+          "frame": "Tortuga mk1",
+          "mech": "Bulwark"
         },
         {
-          "callsign": "Kal",
-          "alias": "Vier Flau",
-          "code": "7cd700cc-c990-48ed-892f-e5468de724c4///NDL-C-DEEP-STATION//a98c3e28-ad4a-4f89-bcd9-501464e960da",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Necrophile"
+          "callsign": "Grand Inquisitor",
+          "alias": "NULL",
+          "code": "NULL",
+          "corpro": "SSC",
+          "frame": "NULL",
+          "mech": "Assessor"
         },
         {
-          "callsign": "Starboard",
-          "alias": "Maria",
-          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Scarlet Judicator"
+          "callsign": "Meteor",
+          "alias": "Rex Fableheart",
+          "code": "a915fc02-1c55-4e89-bc1f-4b9da323cfdf//NDL-C-STOLEN-CAIRN",
+          "corpro": "HORUS",
+          "frame": "Pattern: Pegasus-Mimic",
+          "mech": "Nebula"
         },
         {
-          "callsign": "Badlands",
-          "alias": "Marlene Gatsby",
-          "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///NDL-C-DEEP-STATION//6f572259-6946-41bf-931a-e0543709e892",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Mayfly"
+          "callsign": "Titania",
+          "alias": "Tiana Khan",
+          "code": "d9f42b8b-ed0d-425d-8d17-134273d39e52//NDL-C-RHO-AXE",
+          "corpro": "SSC",
+          "frame": "Duskwing",
+          "mech": "Fey-Quin-Kai"
         },
         {
-          "callsign": "Compadre",
-          "alias": 'Clint "CC" Cruz',
-          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Rio Bravo"
+          "callsign": "Wolf",
+          "alias": 'Nero Fireblood',
+          "code": "946da6d9-6aff-4462-8ae3-7f508eac8958//NDL-C-BLACK-BREATH",
+          "corpro": "HORUS",
+          "frame": "Pattern: Pegasus-Fluid",
+          "mech": "Garmr"
         },
       ],
       "header": {
         "planet": "Hercynia",
-        "year": "5014u",
+        "year": "5014U",
         "system": "Ardennes-3",
         "gate": "Atlas-Quanokrim",
         "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "headerTitle": "Union",
+        "headerSubtitle": "Naval Department",
+        "subheaderTitle": "Aux Program - Special Operations",
+        "subheaderSubtitle": "Arc Hounds",
       },
       "options":{
         "eventsMarkdownPerMission": true
